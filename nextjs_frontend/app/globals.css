@@ -1,0 +1,205 @@
+html {
+  background-color: #393E46;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Table header styles */
+th {
+  background-color: #222831;
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Table row styles */
+tr:nth-child(even) {
+  background-color: #393E46;
+  color: #FFFFFF;
+}
+
+tr:nth-child(odd) {
+  background-color: #222831; 
+  color: #FFFFFF;
+}
+
+/* Table cell styles */
+td {
+  padding: 5px;
+  border: 1px solid #393E46; 
+  font-size: 12px;
+}
+
+/* Add hover effect for rows */
+tr:hover {
+  background-color: #575E66;
+}
+
+.bg-222831 {
+  background-color: #222831;
+}
+
+.bg-393E46 {
+  background-color: #393E46;
+}
+
+.bg-EEEEEE {
+  background-color: #EEEEEE;
+}
+
+.bg-00ADB5 {
+  background-color: #00ADB5;
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+.w-50 {
+  max-width: 500px;
+}
+
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+
+.w-5 {
+  max-width: 5%;
+}
+
+.w-8 {
+  width: 8%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.h-10 {
+  height: 10%;
+}
+.h-90 {
+  height: 85%;
+}
+
+option {
+  color: gray;
+}
+
+.spinner-border {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.spinner-grow {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Page.js */
+.regButton {
+  width: 11em
+}
+
+.btn-custom {
+  background-color: #00ADB5;
+  color: #EEEEEE;
+  border: 2px solid #00ADB5;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #008d95;
+  color: #EEEEEE;
+}
+
+.btn-custom:active {
+  background-color: #007F86;
+  border-color: #007F86;
+}
+
+svg {
+  fill: #EEEEEE;
+  transition: fill 0.3s ease;
+}
+
+.btn-custom:hover svg {
+  fill: #02cdd8;
+}
+
+/* Dark secondary color (e.g., #393E46) */
+.bg-dark-secondary {
+  background-color: #393E46;
+}
+
+/* Light secondary color (e.g., #EEEEEE) */
+.bg-light-secondary {
+  background-color: #EEEEEE;
+  color: #222831;
+}
+
+/* Text colors */
+.text-light {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: #222831;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #222831;
+  padding: 8px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #00ADB5;
+  box-shadow: 0 0 5px rgba(0, 173, 181, 0.5);
+}
+
+.input-group-text {
+  border: 1px solid #222831;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control:hover,
+.form-select:hover {
+  border-color: #00ADB5;
+}
+
+svg {
+  fill: #ffffff;
+}
+
+.input-group-text:hover svg {
+  fill: #00ADB5;
+}
+
+.option-light {
+  color: #f8f9fa;
+  background-color: #343a40;
+}
