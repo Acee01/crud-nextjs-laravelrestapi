@@ -19,5 +19,8 @@
 
 ## NextJS Set Up
 **A guide to setting up and running your Next.js project.**
-1. Open terminal and run **npm run dev**
-2. The application will be accessible at **_http://localhost:3000_**.
+1. In your **Visual Studio Code** copy the path of the folder **nextjs_frontend**.
+2. Open the **cmd** of your desktop or computer and enter **cd "and the path you've copied"**.
+3. Enter **npm install next**.
+4. After installing, enter **npm run dev**.
+5. The application will be accessible at **_http://localhost:3000_**.
